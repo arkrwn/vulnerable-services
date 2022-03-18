@@ -1,0 +1,8 @@
+version: '2'
+services:
+ web:
+   image: arkwrn/mpay-infosec:vuln01v1.0
+   volumes:
+    - ./appweb.conf:/etc/appweb/appweb.conf
+   ports:
+    - "8351:8080"

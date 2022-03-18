@@ -1,0 +1,6 @@
+version: '2'
+services:
+ samba:
+   image: arkwrn/mpay-infosec:vuln05v1.0
+   ports:
+    - "9200:9200"

@@ -1,0 +1,8 @@
+version: '2'
+services:
+ dockerpeloit:
+   image: arkwrn/mpay-infosec:vuln06v1.0
+   ports:
+    - "14045:80"
+   volumes:
+    - /var/run/docker.sock:/var/run/docker.sock

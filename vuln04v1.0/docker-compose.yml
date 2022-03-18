@@ -1,0 +1,9 @@
+version: '2'
+services:
+ samba:
+   image: arkwrn/mpay-infosec:vuln04v1.0
+   tty: true
+   volumes:
+    - ./smb.conf:/usr/local/samba/etc/smb.conf
+   ports:
+    - "445:445"
