@@ -1,6 +1,6 @@
 version: '2'
 services:
- dockerpeloit:
+ walaydock:
    image: arkwrn/mpay-infosec:vuln06v1.0
    ports:
     - "14045:80"

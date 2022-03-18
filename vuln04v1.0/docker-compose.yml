@@ -1,6 +1,6 @@
 version: '2'
 services:
- samba:
+ walayfs:
    image: arkwrn/mpay-infosec:vuln04v1.0
    tty: true
    volumes:
